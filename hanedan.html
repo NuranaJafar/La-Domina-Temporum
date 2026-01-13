@@ -1,0 +1,182 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <link rel="stylesheet" href="style.css">
+    <title>Document</title>
+</head>
+<body>
+    
+<div class="container">
+<!-- NAV -->
+<nav class="imperial-nav" role="navigation" aria-label="İmparatorluk Navigasyonu">
+  <!-- Sol Menü: Ana Sayfa, Evren, Hanedan -->
+  <ul class="nav-links nav-left">
+    <li><a href="index.html">Ana Sayfa</a></li>
+    <li><a href="evren.html">Evren & Tarih</a></li>
+    <li><a href="hanedan.html">Hanedanlar</a></li>
+  </ul>
+
+  <!-- Merkez: Logo -->
+  <a href="index.html" class="nav-logo" aria-label="İmparatorluk Anasayfası">
+    ✠
+  </a>
+
+  <!-- Sağ Menü: Karakterler, Nizam, Katılım -->
+  <ul class="nav-links nav-right">
+    <li><a href="karakter.html">Karakterler</a></li>
+    <li><a href="#rules">Nizam</a></li>
+    <li><a href="#join">Katılım</a></li>
+  </ul>
+
+  <!-- Hamburger Butonu (sadece mobilde görünür) -->
+  <button class="hamburger" aria-expanded="false" aria-controls="mobile-menu">
+    <span class="sr-only">Menüyü aç/kapat</span>
+    <span></span>
+    <span></span>
+    <span></span>
+  </button>
+
+  <!-- Mobil Menü (gizli, JS ile açılır) -->
+  <ul id="mobile-menu" class="mobile-nav">
+    <li><a href="index.html">Ana Sayfa</a></li>
+    <li><a href="evren.html">Evren & Tarih</a></li>
+    <li><a href="hanedan.html">Hanedanlar</a></li>
+    <li><a href="karakter.html">Karakterler</a></li>
+    <li><a href="#rules">Nizam</a></li>
+    <li><a href="#join">Katılım</a></li>
+  </ul>
+</nav>
+
+   <section class="section dynasties">
+
+    <h1>Hanedanlar & Taçlar</h1>
+    <p class="intro">
+        XVI. yüzyılın sonlarına gelindiğinde Avrupa, artık çok sayıda bağımsız
+        krallıktan değil; tek bir hanedanın iradesi etrafında şekillenen
+        birleşik bir siyasi düzenden oluşmaktadır.
+    </p>
+
+    <!-- ================= ANA HANEDAN ================= -->
+
+    <div class="main-dynasty">
+        <h2>Merkez Hanedan</h2>
+
+        <div class="dynasty-card imperial">
+            <img src="imperial-crest.png" alt="İmparatorluk Arması">
+
+            <div class="dynasty-info">
+                <h3>Valois – Habsburg Hanedanı</h3>
+
+                <p>
+                    Kutsal Roma İmparatorluğu’nun merkezinde yer alan bu hanedan,
+                    aynı zamanda İspanya, Fransa, Britanya ve bağlı taçlar üzerinde
+                    doğrudan veya dolaylı hüküm sahibidir.
+                </p>
+
+                <ul class="dynasty-details">
+                    <li><strong>Resmî Ünvan:</strong> Kutsal Roma ve Batı İmparatorları</li>
+                    <li><strong>Dini Konum:</strong> Katolikliğin koruyucusu</li>
+                    <li><strong>Siyasi Rol:</strong> Mutlak merkeziyetçilik</li>
+                    <li><strong>Askerî Güç:</strong> İmparatorluk Orduları</li>
+                    <li><strong>Ekonomik Dayanak:</strong> Fugger Ailesi</li>
+                </ul>
+
+                <span class="leader">Mevcut Lider: İmparator Gabriel</span>
+            </div>
+        </div>
+    </div>
+
+    <!-- ================= BAĞLI TAÇLAR ================= -->
+
+    <div class="sub-dynasties">
+        <h2>Bağlı Taçlar ve Krallıklar</h2>
+
+        <div class="dynasty-grid">
+
+            <div class="dynasty-card">
+                <img src="images/fransaarma.png" alt="Fransa Arması">
+                <h3>Fransa Krallığı</h3>
+                <p class="rulers">Alec & Chloe</p>
+                <p class="desc">
+                    İmparatorluğun kültürel ve askeri merkezlerinden biri.
+                    Kara ordularının ana gücü burada toplanır.
+                </p>
+                <ul>
+                    <li>Katolik</li>
+                    <li>Kara Ordusu</li>
+                    <li>Merkezi Sadakat</li>
+                </ul>
+            </div>
+
+            <div class="dynasty-card">
+                <img src="britain.png" alt="Britanya Arması">
+                <h3>Britanya Krallığı</h3>
+                <p class="rulers">James & Sarah</p>
+                <p class="desc">
+                    Deniz ticareti, donanma ve diplomasi açısından
+                    imparatorluğun kilit taşıdır.
+                </p>
+                <ul>
+                    <li>Kraliyet Donanması</li>
+                    <li>Ticaret & Limanlar</li>
+                    <li>Atlantik Hâkimiyeti</li>
+                </ul>
+            </div>
+
+            <div class="dynasty-card">
+                <img src="portugal.png" alt="Portekiz Arması">
+                <h3>Portekiz Krallığı</h3>
+                <p class="rulers">Alaric & Eleonora</p>
+                <p class="desc">
+                    Deniz keşifleri, koloniler ve denizaşırı ticaret
+                    Portekiz tacının gücünü belirler.
+                </p>
+                <ul>
+                    <li>Koloniler</li>
+                    <li>Keşif Filoları</li>
+                    <li>Baharat Ticareti</li>
+                </ul>
+            </div>
+
+            <div class="dynasty-card">
+                <img src="poland.png" alt="Lehistan-Litvanya Arması">
+                <h3>Lehistan–Litvanya</h3>
+                <p class="rulers">Edward, Nicole & Margaret</p>
+                <p class="desc">
+                    Doğu sınırlarının kalkanı ve Rusya ile
+                    ideolojik çatışmanın merkezidir.
+                </p>
+                <ul>
+                    <li>Doğu Cephesi</li>
+                    <li>Ortodoks Gerilimi</li>
+                    <li>Sınır Orduları</li>
+                </ul>
+            </div>
+
+            <div class="dynasty-card">
+                <img src="scandinavia.png" alt="İskandinavya Arması">
+                <h3>İskandinavya İmparatorluğu</h3>
+                <p class="rulers">Christian & Chloris</p>
+                <p class="desc">
+                    Baltık Denizi, kuzey ticareti ve donanma
+                    gücünün ana merkezi.
+                </p>
+                <ul>
+                    <li>Baltık Kontrolü</li>
+                    <li>Deniz Gücü</li>
+                    <li>Kuzey İttifakı</li>
+                </ul>
+            </div>
+
+        </div>
+    </div>
+
+</section>
+
+
+   </div>
+<script src="script.js"></script>
+</body>
+</html>

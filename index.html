@@ -1,0 +1,171 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <link rel="stylesheet" href="style.css">
+    <title>La Domina Temporum</title>
+</head>
+<body>
+<div class="container">
+<!-- NAV -->
+<nav class="imperial-nav" role="navigation" aria-label="İmparatorluk Navigasyonu">
+  <!-- Sol Menü: Ana Sayfa, Evren, Hanedan -->
+  <ul class="nav-links nav-left">
+    <li><a href="index.html">Ana Sayfa</a></li>
+    <li><a href="evren.html">Evren & Tarih</a></li>
+    <li><a href="hanedan.html">Hanedanlar</a></li>
+  </ul>
+
+  <!-- Merkez: Logo -->
+  <a href="index.html" class="nav-logo" aria-label="İmparatorluk Anasayfası">
+    ✠
+  </a>
+
+  <!-- Sağ Menü: Karakterler, Nizam, Katılım -->
+  <ul class="nav-links nav-right">
+    <li><a href="karakter.html">Karakterler</a></li>
+    <li><a href="#rules">Nizam</a></li>
+    <li><a href="#join">Katılım</a></li>
+  </ul>
+
+  <!-- Hamburger Butonu (sadece mobilde görünür) -->
+  <button class="hamburger" aria-expanded="false" aria-controls="mobile-menu">
+    <span class="sr-only">Menüyü aç/kapat</span>
+    <span></span>
+    <span></span>
+    <span></span>
+  </button>
+
+  <!-- Mobil Menü (gizli, JS ile açılır) -->
+  <ul id="mobile-menu" class="mobile-nav">
+    <li><a href="index.html">Ana Sayfa</a></li>
+    <li><a href="evren.html">Evren & Tarih</a></li>
+    <li><a href="hanedan.html">Hanedanlar</a></li>
+    <li><a href="karakter.html">Karakterler</a></li>
+    <li><a href="#rules">Nizam</a></li>
+    <li><a href="#join">Katılım</a></li>
+  </ul>
+</nav>
+   <section class="hero">
+    <div class="hero-overlay"></div>
+
+    <div class="hero-content">
+        <h1>
+            XVI. Yüzyılın Gölgesinde<br>
+            <span>Yeni Bir Avrupa</span>
+        </h1>
+
+        <p>
+            Taçların tek bir hanedan bağıyla birleştiği,  
+            dinin, savaşın ve nesiller boyu sürecek kararların  
+            kıtanın kaderini belirlediği bir çağ.
+        </p>
+
+        <div class="hero-buttons">
+            <a href="contact.html" class="btn-primary">Çağa Adım At</a>
+            <a href="evren.html" class="btn-secondary">Evreni Keşfet</a>
+        </div>
+    </div>
+</section>
+
+<!-- İMPARATORLUK TANITIMI -->
+<section class="section intro">
+    <div class="section-inner">
+        <h2>Tek Bir Hanedan, Tek Bir Düzen</h2>
+        <p>
+            Avrupa, XVI. yüzyılın sonunda parçalanmış krallıkların değil; 
+            tek bir hanedan bağının yön verdiği bir düzenin gölgesindedir.
+            Taçlar farklıdır, irade tektir.
+        </p>
+    </div>
+</section>
+
+<!-- GÜÇ ALANLARI -->
+<section class="section powers">
+    <h2>İmparatorluğun Kapsadığı Taçlar</h2>
+
+    <div class="power-grid">
+        <div class="power-card">Kutsal Roma – İspanya</div>
+        <div class="power-card">Fransa</div>
+        <div class="power-card">Britanya</div>
+        <div class="power-card">Portekiz</div>
+        <div class="power-card">İskandinavya</div>
+        <div class="power-card">Lehistan–Litvanya</div>
+    </div>
+</section>
+<section class="section figures">
+    <h2>Merkez Figürler</h2>
+
+    <div class="figure-cards">
+
+        <div class="figure-card">
+            <div class="figure-image">
+                <img src="images/gabriel.jpg" alt="İmparator Gabriel">
+            </div>
+            <h3>İmparator Gabriel</h3>
+            <span>Katolik Dünyanın Koruyucusu ve Siyasi Lideri</span>
+        </div>
+
+        <div class="figure-card">
+            <div class="figure-image">
+                <img src="images/z.jpg" alt="İmparatoriçe Adelaide">
+            </div>
+            <h3>İmparatoriçe Adelaide</h3>
+            <span>Ana İmparatoriçe, Merkezi Düzenin Mimarı</span>
+        </div>
+
+        <div class="figure-card">
+            <div class="figure-image">
+                <img src="images/francesca.jpg" alt="Prenses Francesca">
+            </div>
+            <h3>Prenses Francesca</h3>
+            <span>Diplomasi, Eğitim ve Doğu–Batı Dengesi. Kutsal Gül
+            </span>
+        </div>
+
+    </div>
+</section>
+
+
+<!-- ÇATIŞMA ALANLARI -->
+<section class="section conflicts">
+    <h2>Avrupa’nın Kaderini Belirleyen Cepheler</h2>
+
+    <ul class="conflict-list">
+        <li>Batı Akdeniz ve İtalya Yarımadası</li>
+        <li>Lehistan – Rusya Gerilimi</li>
+        <li>Avusturya – Osmanlı Hattı</li>
+        <li>Hollanda’nın Yükselişinin Engellenmesi</li>
+        <li>Hanedan İçi Rekabetler</li>
+    </ul>
+</section>
+
+<!-- SON DAVET -->
+<section class="section final-call">
+    <div class="call-box">
+        <h2>Tarih Sizi Bekliyor</h2>
+        <p>
+            Bu dünya, kısa süreli bir oyun değil; 
+            nesiller boyunca sürecek bir iktidar sahnesidir.
+        </p>
+        <a href="#join" class="final-btn">İmparatorlukta Yerini Al</a>
+    </div>
+</section>
+
+
+
+
+
+
+
+
+
+
+
+
+
+</div>
+    <script src="script.js"></script>
+</body>
+</html>

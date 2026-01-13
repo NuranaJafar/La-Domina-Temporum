@@ -1,0 +1,182 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <link rel="stylesheet" href="style.css">
+    <title>La Domina Temporum</title>
+</head>
+<body>
+    <div class="container">
+<!-- NAV -->
+<nav class="imperial-nav" role="navigation" aria-label="İmparatorluk Navigasyonu">
+  <!-- Sol Menü: Ana Sayfa, Evren, Hanedan -->
+  <ul class="nav-links nav-left">
+    <li><a href="index.html">Ana Sayfa</a></li>
+    <li><a href="evren.html">Evren & Tarih</a></li>
+    <li><a href="hanedan.html">Hanedanlar</a></li>
+  </ul>
+
+  <!-- Merkez: Logo -->
+  <a href="index.html" class="nav-logo" aria-label="İmparatorluk Anasayfası">
+    ✠
+  </a>
+
+  <!-- Sağ Menü: Karakterler, Nizam, Katılım -->
+  <ul class="nav-links nav-right">
+    <li><a href="karakter.html">Karakterler</a></li>
+    <li><a href="#rules">Nizam</a></li>
+    <li><a href="#join">Katılım</a></li>
+  </ul>
+
+  <!-- Hamburger Butonu (sadece mobilde görünür) -->
+  <button class="hamburger" aria-expanded="false" aria-controls="mobile-menu">
+    <span class="sr-only">Menüyü aç/kapat</span>
+    <span></span>
+    <span></span>
+    <span></span>
+  </button>
+
+  <!-- Mobil Menü (gizli, JS ile açılır) -->
+  <ul id="mobile-menu" class="mobile-nav">
+    <li><a href="index.html">Ana Sayfa</a></li>
+    <li><a href="evren.html">Evren & Tarih</a></li>
+    <li><a href="hanedan.html">Hanedanlar</a></li>
+    <li><a href="karakter.html">Karakterler</a></li>
+    <li><a href="#rules">Nizam</a></li>
+    <li><a href="#join">Katılım</a></li>
+  </ul>
+</nav>
+
+<section class="section universe">
+    <h1>Evren & Tarih</h1>
+    <p>
+        Avrupa, XVI. yüzyılın ortalarından itibaren yalnızca krallıkların değil, 
+        tek bir hanedanın gölgesinde şekillenen bir kıta haline gelmiştir. 
+        Bu dönem, din, siyaset ve hanedan içi mücadelelerle doludur.
+    </p>
+
+    <!-- ZAMAN ÇİZGİSİ -->
+    <div class="timeline">
+
+        <div class="timeline-event left">
+            <div class="timeline-date">1550</div>
+            <div class="timeline-content">
+                <h3>Başlangıç Noktası</h3>
+                <p>
+                    Alternatif tarih akışının ilk kırılma noktası. Kutsal Roma-Germen İmparatorluğu merkezi otorite altında birleşmeye başlar.
+                </p>
+            </div>
+        </div>
+
+        <div class="timeline-event right">
+            <div class="timeline-date">1560</div>
+            <div class="timeline-content">
+                <h3>Protestan Minimizasyonu</h3>
+                <p>
+                    Katoliklik resmî ve baskın mezhep haline gelir. Protestan hareketleri ve direnişleri etkisizleştirilir.
+                </p>
+            </div>
+        </div>
+
+        <div class="timeline-event left">
+            <div class="timeline-date">1570</div>
+            <div class="timeline-content">
+                <h3>Alman Gümrük Birliği</h3>
+                <p>
+                    Ekonomi ve ticaret alanında Alman Gümrük Birliği (Zollverein benzeri) kurularak merkezi ekonomik güç sağlanır.
+                </p>
+            </div>
+        </div>
+
+        <div class="timeline-event right">
+            <div class="timeline-date">1585</div>
+            <div class="timeline-content">
+                <h3>Aktif Dönem Başlangıcı</h3>
+                <p>
+                    İmparator Gabriel’in yönetimi altında Avrupa, siyasi ve dini güç dengeleriyle şekillenmeye başlar.
+                </p>
+            </div>
+        </div>
+
+        <div class="timeline-event left">
+            <div class="timeline-date">1587</div>
+            <div class="timeline-content">
+                <h3>Yeni Nesil Rol Alanı</h3>
+                <p>
+                    Prens ve prenseslerin yetişmesiyle, hanedan içi rekabetler ve politik RP’nin merkezi başlar.
+                </p>
+            </div>
+        </div>
+
+        <div class="timeline-event right">
+            <div class="timeline-date">1590</div>
+            <div class="timeline-content">
+                <h3>Kapanış Noktası</h3>
+                <p>
+                    Batı ve Doğu Avrupa’daki çatışmalar, diplomasi ve hanedan içi mücadelelerle alternatif tarih çizgisi tamamlanır.
+                </p>
+            </div>
+        </div>
+
+    </div>
+
+    <!-- TEMEL KIRILMA NOKTALARI -->
+    <div class="milestones">
+        <h2>Temel Kırılma Noktaları</h2>
+        <ul>
+            <li>Kutsal Roma-Germen İmparatorluğu merkezi otorite altında birleşir.</li>
+            <li>Sezaropapizm ihtimali fiilen mümkün olur.</li>
+            <li>Papalık, Gabriel karşısında yaptırım gücünü yitirir.</li>
+            <li>Alman Gümrük Birliği (Zollverein benzeri) kurulur.</li>
+            <li>Batı Akdeniz’de İtalya şehir devletleri ile savaşlar başlar.</li>
+            <li>Lehistan – Rusya sınır gerilimi yoğunlaşır.</li>
+            <li>Hollanda’nın yükselişi engellenir, koloniler ve ticaret dengelenir.</li>
+        </ul>
+    </div>
+
+    <!-- DİN & SİYASET -->
+    <div class="religion-politics">
+        <h2>Dini Durum & Diplomasi</h2>
+        <p>
+            Katoliklik resmî ve baskın mezheptir. Protestanlık minimize edilmiştir.
+            Ortodoks dünya (Rusya) ile ideolojik çatışma devam eder.
+            Osmanlı ile pragmatik, diplomatik ve ticari ilişkiler mevcuttur.
+        </p>
+    </div>
+
+    <!-- ÖNEMLİ SAVAŞLAR -->
+    <div class="wars">
+        <h2>Önemli Savaşlar ve Cepheler</h2>
+        <div class="war-grid">
+            <div class="war-card">
+                <h3>Batı Akdeniz Savaşları</h3>
+                <p>İtalya yarımadası ve Venedik, Ceneviz, Napoli şehirleri üzerinde mücadele.</p>
+            </div>
+            <div class="war-card">
+                <h3>Lehistan – Rusya Gerilimi</h3>
+                <p>Doğu sınırlarında askeri ve diplomatik çatışmalar.</p>
+            </div>
+            <div class="war-card">
+                <h3>Avusturya – Osmanlı Hattı</h3>
+                <p>Orta Avrupa ve Balkanlar’da denge mücadelesi.</p>
+            </div>
+            <div class="war-card">
+                <h3>Hollanda’nın Yükselişini Engelleme</h3>
+                <p>Ticaret ve deniz gücünü sınırlamak için girişilen stratejik hamleler.</p>
+            </div>
+        </div>
+    </div>
+
+    <!-- HARİTA / SINIRLAR -->
+    <div class="map-section">
+        <h2>İmparatorluğun Kapsadığı Bölgeler</h2>
+        <img src="images/haritaladomina.jpg" alt="Alternatif Avrupa Haritası" class="map-image">
+    </div>
+
+</section>
+
+</div>
+    <script src="script.js"></script>
+</body>
+</html>
